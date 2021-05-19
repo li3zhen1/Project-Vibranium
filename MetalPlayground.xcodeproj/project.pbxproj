@@ -15,6 +15,8 @@
 		2BC2928F265107BB0019A6C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC29264265107B90019A6C1 /* ContentView.swift */; };
 		2BC29290265107BB0019A6C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC29265265107BB0019A6C1 /* Assets.xcassets */; };
 		2BC29291265107BB0019A6C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC29265265107BB0019A6C1 /* Assets.xcassets */; };
+		2BC292A1265109A40019A6C1 /* Adder.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2BC292A0265109A40019A6C1 /* Adder.metal */; };
+		2BC292A2265109A40019A6C1 /* Adder.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2BC292A0265109A40019A6C1 /* Adder.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		2BC29285265107BB0019A6C1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC29289265107BB0019A6C1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2BC2928B265107BB0019A6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC292A0265109A40019A6C1 /* Adder.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Adder.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 				2BC29263265107B90019A6C1 /* MetalPlaygroundApp.swift */,
 				2BC29264265107B90019A6C1 /* ContentView.swift */,
 				2BC29265265107BB0019A6C1 /* Assets.xcassets */,
+				2BC292A0265109A40019A6C1 /* Adder.metal */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -310,6 +314,7 @@
 			files = (
 				2BC2928E265107BB0019A6C1 /* ContentView.swift in Sources */,
 				2BC2928C265107BB0019A6C1 /* MetalPlaygroundApp.swift in Sources */,
+				2BC292A1265109A40019A6C1 /* Adder.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +324,7 @@
 			files = (
 				2BC2928F265107BB0019A6C1 /* ContentView.swift in Sources */,
 				2BC2928D265107BB0019A6C1 /* MetalPlaygroundApp.swift in Sources */,
+				2BC292A2265109A40019A6C1 /* Adder.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
